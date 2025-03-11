@@ -1,0 +1,2 @@
+Live site of this project: https://studybud-6xzs.onrender.com/
+StudyBud is a web-based platform built using Django, designed to help students collaborate and engage in discussions. It allows users to create study rooms, join discussions, and interact with other learners. Alok developed the project by following a YouTube tutorial and hosted it on Render. The project includes user authentication, search functionality, and real-time updates.
