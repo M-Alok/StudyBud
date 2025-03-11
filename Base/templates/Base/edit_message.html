@@ -4,7 +4,7 @@
 
     <div class="edit-message-container">
         <p>Edit your message</p>
-        <form action="" method="POST" class="edit-message-form">
+        <form method="POST" class="edit-message-form">
             {% csrf_token %}
             <input type="text" name="edit-msg" value="{{ message.body }}" placeholder="Enter message to be edited..." class="edit-message-input" id="edit-message-input">
             <button type="submit" class="edit-message-btn">Save</button>

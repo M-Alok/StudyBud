@@ -15,7 +15,7 @@
           <div class="layout__body">
             <h2 class="auth__tagline">Find your study partner</h2>
 
-            <form class="form" action="" method="POST">
+            <form class="form" method="POST">
               {% csrf_token %}
               <div class="form__group form__group">
                 <label for="room_name">Username</label>
@@ -74,7 +74,7 @@
           <div class="layout__body">
             <h2 class="auth__tagline">Find your study partner</h2>
 
-            <form class="form" action="" method="POST">
+            <form class="form" method="POST">
               {% csrf_token %}
 
               {% for field in form %}
